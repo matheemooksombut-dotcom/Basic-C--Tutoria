@@ -126,13 +126,36 @@ namespace BasicPrograming
 
             }
 
-               // Condition  Check User / Admin
+            // Check Age 
             Console.WriteLine("_________________");
             Console.WriteLine("ASSIGMENT-3");
+            Console.Write("Input Age : "); 
+            // Input
+            int.TryParse(Console.ReadLine(),out int age);
+            // Out Put
+            if (age>20 && age<25)
+            {
+                Console.WriteLine("You're Teen Age");
+            }else {
+                Console.WriteLine("You're Not Teen Age");
+            }
 
 
-            Console.WriteLine("Please Enter Userename :"  ); 
+            // Condition  Check User / Admin
+            Console.WriteLine("_________________");
+            Console.WriteLine("ASSIGMENT-4");
+
+
+            Console.Write("Please Enter Userename :"  ); 
             String Username = Console.ReadLine()!;
+
+            if (Username=="admin")
+            {
+                Console.WriteLine("Hello Admin");
+            }
+            else {
+                Console.WriteLine("Hello User");
+            }
             
 
 
