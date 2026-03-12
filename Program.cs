@@ -126,7 +126,16 @@ namespace BasicPrograming
 
             }
 
+               // Condition  Check User / Admin
+            Console.WriteLine("_________________");
+            Console.WriteLine("ASSIGMENT-3");
+
+
+            Console.WriteLine("Please Enter Userename :"  ); 
+            String Username = Console.ReadLine()!;
             
+
+
 
             
         }
