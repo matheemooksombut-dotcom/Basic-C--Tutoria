@@ -145,7 +145,7 @@ namespace BasicPrograming
             Console.WriteLine("_________________");
             Console.WriteLine("ASSIGMENT-4");
 
-
+ 
             Console.Write("Please Enter Userename :"  ); 
             String Username = Console.ReadLine()!;
 
@@ -157,9 +157,6 @@ namespace BasicPrograming
                 Console.WriteLine("Hello User");
             }
             
-
-
-
             
         }
     
