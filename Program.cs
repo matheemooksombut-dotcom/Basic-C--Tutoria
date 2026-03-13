@@ -157,6 +157,20 @@ namespace BasicPrograming
                 Console.WriteLine("Hello User");
             }
             
+
+            // Tendnary
+            Console.WriteLine("_________________");
+            Console.WriteLine("ASSIGMENT-5");
+            
+            Console.Write("Please Enter Your Score : "); 
+            int.TryParse(Console.ReadLine(),out int Score);
+            
+            string Result = (Score==100) ? "Pass" : "Fail";
+
+            Console.WriteLine(Result);
+
+
+
             
         }
     
